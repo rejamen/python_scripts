@@ -32,7 +32,10 @@ def positive_number_generator():
 
 
 def manipulate_generator(g, n):
-    """Something."""
+    """Do something."""
+    while(is_prime(n + 1)):
+        print('{} is prime'.format(n + 1))
+        n = next(g)
     pass
 
 
